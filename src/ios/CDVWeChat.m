@@ -234,4 +234,8 @@ const int SCENE_TIMELINE = 2;
     [self.commandDelegate sendPluginResult:commandResult callbackId:command.callbackId];
 }
 
+- (void)login:(CDVInvokedUrlCommand *)command {
+    
+}
+
 @end

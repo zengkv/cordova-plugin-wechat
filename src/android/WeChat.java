@@ -75,10 +75,16 @@ public class WeChat extends CordovaPlugin {
             share(args, callbackContext);
         } else if (action.equals("isInstalled")) {
             isInstalled(callbackContext);
+        } else if (action.equals("login")) {
+            login(callbackContext);
         } else {
             return false;
         }
         return true;
+    }
+
+    private void login(JSONArray args, CallbackContext callbackContext) {
+
     }
 
     private void share(JSONArray args, CallbackContext callbackContext)

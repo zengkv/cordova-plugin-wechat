@@ -28,5 +28,6 @@ enum CDVWeChatShareType {
 
 - (void)share:(CDVInvokedUrlCommand *)command;
 - (void)isInstalled:(CDVInvokedUrlCommand *)command;
+- (void)login:(CDVInvokedUrlCommand *)command;
 
 @end

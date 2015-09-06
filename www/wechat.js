@@ -82,3 +82,7 @@ exports.isInstalled = function (onfulfill, onreject) {
 
     return promise;
 };
+
+exports.login = function(onfulfill, onreject) {
+    cordova.exec(onfulfill, onreject, 'WeChat', 'login', []);
+}
