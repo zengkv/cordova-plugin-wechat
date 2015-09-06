@@ -83,7 +83,7 @@ public class WeChat extends CordovaPlugin {
         return true;
     }
 
-    private void login(JSONArray args, CallbackContext callbackContext) {
+    private void login(CallbackContext callbackContext) {
 
     }
 
